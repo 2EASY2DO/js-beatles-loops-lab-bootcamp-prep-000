@@ -3,7 +3,7 @@ function theBeatlesPlay(musi,instru){
   var empt = [];
   var i;
   for(i = 0; i < musi.length; i++){
-    empt = musi[i] + ' plays ' + instru[i];
+    empt.empt(musi[i] + ' plays ' + instru[i]);
   }
   console.log (empt);
 }
