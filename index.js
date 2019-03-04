@@ -5,7 +5,7 @@ function theBeatlesPlay(musi,instru){
   for(i = 0; i < musi.length; i++){
     empt.push(musi[i] + ' plays ' + instru[i]);
   }
-  console.log (empt);
+  return (empt);
 }
 
 function johnLennonFacts(facts){
