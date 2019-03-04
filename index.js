@@ -2,9 +2,9 @@
 function theBeatlesPlay(musi,instru){
   var empt;
   for(i = 0; i < musi.length; i++){
-    array = musi[i] + ' plays ' + instru[i];
-    console.log (empt);
+    empt = musi[i] + ' plays ' + instru[i];
   }
+  console.log (empt);
 }
 
 function johnLennonFacts(facts){
