@@ -2,7 +2,7 @@
 function theBeatlesPlay(musi,instru){
   var empt;
   for(i = 0; i < musi.length; i++){
-    array = musi + instru;
+    array = musi[i] + ' plays ' + instru[i];
     console.log (empt);
   }
 }
@@ -20,7 +20,7 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(num) {
   var sentence = [];
   do {
-    phrases.push("I love the Beatles!");
+    sentence.push("I love the Beatles!");
     num++
   } while (num < 15);
   return sentence;
